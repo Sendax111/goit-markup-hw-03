@@ -158,6 +158,10 @@ font-family: "Roboto", sans-serif;
     background: #2e2f42;
     padding: 100px 0;
  }
+ .page-footer a {
+     display: block;
+     margin-bottom: 16px;
+ }
  .text-footer {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
