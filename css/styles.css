@@ -61,6 +61,9 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.04em;
         color: #fff;
 }
+.li-benefits {
+    width: calc((100% - 72px) / 4);
+}
 .text-benefits {
     display: flex;
     gap: 24px;
@@ -82,9 +85,6 @@ font-family: "Roboto", sans-serif;
         color: #2e2f42;
         line-height: 1.2;
         margin-bottom: 8px;
-}
-.li-benefits {
-flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .page-our-team {
     background: #f4f4fd;
@@ -222,5 +222,12 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 .visually-hidden {
-
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
