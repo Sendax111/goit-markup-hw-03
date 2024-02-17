@@ -158,10 +158,6 @@ font-family: "Roboto", sans-serif;
     background: #2e2f42;
     padding: 100px 0;
  }
- .page-footer logo-foot{
-    display: inline-block;
-     margin-bottom: 16px;
- }
  .text-footer {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -278,4 +274,8 @@ position: absolute;
     border: 1px solid #e7e9fc;
     border-top: none;
     
+}
+.container a {
+    display: inline-block;
+    margin-bottom: 16px;
 }
