@@ -67,7 +67,7 @@ font-family: "Roboto", sans-serif;
         color: #fff;
 }
 .li-benefits {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); 
 }
 .text-benefits {
     display: flex;
