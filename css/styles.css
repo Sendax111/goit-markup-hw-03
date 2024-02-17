@@ -43,6 +43,7 @@ margin-right: 76px;
 .text-with-button {
     line-height: 1.07;
     background: #2e2f42;
+    padding: 188px 0;
 }
 .title-header {
 font-family: "Roboto", sans-serif;
@@ -51,6 +52,7 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -169,6 +171,10 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button-header:hover,
 .button-header:focus {
