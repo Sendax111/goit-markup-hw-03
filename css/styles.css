@@ -22,12 +22,11 @@ text-transform: uppercase;
 color: #4d5ae5;
 line-height: 1.17;
 margin-right: 76px;
+display: inline-block;
+    margin-bottom: 16px;
+}
 
-}
-.logo href {
-    display: inline-block;
-        margin-bottom: 16px;
-}
+
 .page-nav {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
