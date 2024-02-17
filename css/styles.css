@@ -182,9 +182,10 @@ img {
 .headeroll {
 border-bottom: 1px solid #e7e9fc;
 }
-.headerdiv {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 1158px;
 }
