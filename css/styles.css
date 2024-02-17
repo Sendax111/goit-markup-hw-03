@@ -157,6 +157,7 @@ font-family: "Roboto", sans-serif;
  .page-footer {
     background: #2e2f42;
     padding: 100px 0;
+    display: inline-block;
  }
  .logo-foot{
     display: inline-block;
@@ -221,6 +222,7 @@ img {
 border-bottom: 1px solid #e7e9fc;
 }
 .container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1158px;
