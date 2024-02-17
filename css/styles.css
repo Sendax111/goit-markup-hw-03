@@ -61,6 +61,10 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.04em;
         color: #fff;
 }
+.text-benefits {
+    gap: 24px;
+
+}
 .text-benefits-p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -76,6 +80,10 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #2e2f42;
         line-height: 1.2;
+        margin-bottom: 8px;
+}
+.li-benefits {
+    width: calc((100% - 72px) / 4);
 }
 .page-our-team {
     background: #f4f4fd;
