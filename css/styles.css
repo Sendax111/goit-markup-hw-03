@@ -88,6 +88,7 @@ font-family: "Roboto", sans-serif;
 }
 .page-our-team {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .head-our-team {
     font-family: "Roboto", sans-serif;
@@ -98,6 +99,7 @@ font-family: "Roboto", sans-serif;
         text-align: center;
         color: #2e2f42;
         line-height: 1.11;
+        margin-bottom: 72px;
 }
 .name-our-team {
     font-family: "Roboto", sans-serif;
@@ -191,6 +193,8 @@ font-family: "Roboto", sans-serif;
 }
 .li-our-team {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .logo-span {
     color: #f4f4fd;
@@ -230,4 +234,9 @@ position: absolute;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+.ul-our-team {
+    display: flex;
+    gap: 24px;
+
 }
