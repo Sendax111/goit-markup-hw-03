@@ -279,10 +279,6 @@ position: absolute;
     display: inline-block;
     margin-bottom: 16px;
 }
-.page-footer a {
+.container a {
     display: inline-block;
-    /* Збереження inline-block */
-    margin-bottom: 16px;
-    /* Додавання відступу між посиланнями */
-    /* Інші ваші стилі для посилань тут */
 }
