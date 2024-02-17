@@ -62,6 +62,7 @@ font-family: "Roboto", sans-serif;
         color: #fff;
 }
 .text-benefits {
+    display: flex;
     gap: 24px;
 
 }
@@ -83,7 +84,7 @@ font-family: "Roboto", sans-serif;
         margin-bottom: 8px;
 }
 .li-benefits {
-    width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .page-our-team {
     background: #f4f4fd;
@@ -221,5 +222,5 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 .visually-hidden {
-        
+
 }
