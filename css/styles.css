@@ -142,7 +142,7 @@ font-family: "Roboto", sans-serif;
             gap: 24px;
     }
         .li-benefits {
-            width: calc((100% - 72px) / 4);
+            width: calc((100% - 3 * 24px) / 4);
         }
                 .text-benefits-h {
                     font-family: "Roboto", sans-serif;
