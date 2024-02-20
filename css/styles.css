@@ -4,10 +4,14 @@ ul, ol {
 a {
     text-decoration: none;
     display: inline-block;
+}.button {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #fff;
 }
-button {
-    cursor: pointer;
-}
+
 .basis-of-styles {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -34,8 +38,75 @@ margin-right: 76px;
 display: inline-block;
     margin-bottom: 16px;
 }
-
-
+.text-with-button {
+    line-height: 1.07;
+    background: #2e2f42;
+    padding: 188px 0;
+}
+.title-header {
+font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+}
+.button-header {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.button-header:hover,
+.button-header:focus {
+    background-color: #404BBF;
+}
+.second-sec {
+    padding: 120px 0;
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+ .text-benefits {
+            display: flex;
+            gap: 24px;
+    }
+        .li-benefits {
+            width: calc((100% - 72px) / 4);
+        }
+                .text-benefits-h {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                    line-height: 1.2;
+                    margin-bottom: 8px;
+                }
+        
+                .text-benefits-p {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 0.02em;
+                    color: #434455;
+                    line-height: 1.5;
+                }
 .page-nav {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -53,27 +124,9 @@ display: inline-block;
         color: #434455;
         font-style:normal;
 }
-.text-with-button {
-    line-height: 1.07;
-    background: #2e2f42;
-    padding: 188px 0;
-}
-.title-header {
-font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    max-width: 496px;
-}
-.button {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.04em;
-        color: #fff;
-}
+
+
+
 
 
 .page-our-team {
@@ -173,21 +226,7 @@ font-family: "Roboto", sans-serif;
 .nav-address:focus {
     color:#404bbf;
 }
-.button-header {
-    background-color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-}
-.button-header:hover,
-.button-header:focus {
-    background-color: #404BBF;
-}
+
 .li-our-team {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -215,48 +254,9 @@ footer .container {
     display: flex;
     gap: 40px;
 }
-.second-sec {
-    padding: 120px 0;
-    
-}
 
-.visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
- .text-benefits {
-            display: flex;
-            gap: 24px;
-    }
-        .li-benefits {
-            width: calc((100% - 72px) / 4);
-        }
-                .text-benefits-h {
-                    font-family: "Roboto", sans-serif;
-                    font-weight: 500;
-                    font-size: 20px;
-                    letter-spacing: 0.02em;
-                    color: #2e2f42;
-                    line-height: 1.2;
-                    margin-bottom: 8px;
-                }
-        
-                .text-benefits-p {
-                    font-family: "Roboto", sans-serif;
-                    font-weight: 400;
-                    font-size: 16px;
-                    letter-spacing: 0.02em;
-                    color: #434455;
-                    line-height: 1.5;
-                }
+
+
 .ul-our-team {
     display: flex;
     gap: 24px;
