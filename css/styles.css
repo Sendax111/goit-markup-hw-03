@@ -13,6 +13,14 @@ button {
     color: #434455;
     background-color: #fff;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -66,32 +74,8 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.04em;
         color: #fff;
 }
-.li-benefits {
-    box-sizing: border-box;
-    width: calc((100% - 72px) / 4); 
-}
-.text-benefits {
-    display: flex;
-    gap: 24px;
 
-}
-.text-benefits-p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    line-height: 1.5;
-}
-.text-benefits-h {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        line-height: 1.2;
-        margin-bottom: 8px;
-}
+
 .page-our-team {
     background: #f4f4fd;
     padding: 120px 0;
@@ -219,14 +203,7 @@ img {
 .headeroll {
 border-bottom: 1px solid #e7e9fc;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 footer .container {
     display: inline-block;
 }
@@ -255,6 +232,31 @@ footer .container {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
+ .text-benefits {
+            display: flex;
+            gap: 24px;
+    }
+        .li-benefits {
+            width: calc((100% - 72px) / 4);
+        }
+                .text-benefits-h {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;
+                    line-height: 1.2;
+                    margin-bottom: 8px;
+                }
+        
+                .text-benefits-p {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 0.02em;
+                    color: #434455;
+                    line-height: 1.5;
+                }
 .ul-our-team {
     display: flex;
     gap: 24px;
