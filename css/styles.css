@@ -227,17 +227,14 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     text-align: center;
 }
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .our-portfolio .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-
-
-.our-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .head-our-portfolio {
     font-family: "Roboto", sans-serif;
