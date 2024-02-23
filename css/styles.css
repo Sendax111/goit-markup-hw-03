@@ -33,6 +33,9 @@ button {
         cursor: pointer;
 }
 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -224,8 +227,11 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     text-align: center;
 }
-
-
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 
 
