@@ -232,6 +232,7 @@ font-family: "Roboto", sans-serif;
     padding-bottom: 120px;
 }
 .container our-portfolio {
+    display: block;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
