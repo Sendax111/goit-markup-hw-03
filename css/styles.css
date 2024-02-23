@@ -33,9 +33,6 @@ button {
         cursor: pointer;
 }
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
