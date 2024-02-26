@@ -303,10 +303,11 @@ font-style: normal;
     background: #2e2f42;
     padding: 100px 0;
  }
+
 .logo-span {
     color: #f4f4fd;
 }
-.logo {
+.page-footer >.logo {
     display: inline-block;
     margin-bottom: 16px;
 }
