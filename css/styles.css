@@ -306,10 +306,9 @@ font-style: normal;
 .logo-span {
     color: #f4f4fd;
 }
-.page-footer> .logo {
+.container>.logo {
     display: inline-block;
-    margin-bottom: 16px;
-}
+    margin-bottom: 16px; } 
  .text-footer {
     font-size: 16px;
     line-height: 1.5;
